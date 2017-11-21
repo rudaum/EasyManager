@@ -10,11 +10,11 @@ body{
   padding-right:10px;
   padding-bottom:10px;
   padding-left:10px;
-  width:90%;
+  width:100%;
   position:relative;
   float:none;
   margin:0px 0px 0px 0px;
-  height:50%;
+  height:72%;
   padding:0px 0px 0px 0px;
 }
 .cell{
@@ -43,7 +43,7 @@ body{
   background-repeat-y:repeat, no-repeat;
   width:auto%;
   background-color:#babaca;
-  padding:2% 2% 8% 2%;
+  padding:1% 2px 8px 2px;
   text-align:center;
   opacity:1;
 }
@@ -54,25 +54,19 @@ body{
   margin-right:auto;
   margin-bottom:0px;
   margin-left:auto;
-  padding:20px 20px 20px 20px;
+  padding:20px 0px 10px 0px;
   opacity:1;
   border:mediumpx solid #212122;
   transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1);
-  height:10%;
-  min-height:10%;
+  height:8%;
+  min-height:7%;
   flex-direction:row;
-  float:left;
   background-color:none;
-}
-.logo-container{
-  width:50%;
-  text-align:left;
   float:none;
-  right:5%;
-  left:30%;
-  display:block;
-  position:relative;
+  right:0px;
+  top:0px;
 }
+
 .logo{
   border-top-left-radius:5px;
   border-top-right-radius:5px;
@@ -91,13 +85,13 @@ body{
   display:block;
   position:relative;
   box-shadow:0px 0px 10px 5px #2e2e8d inset;
-  background-color:#ffffff;
-  left:27%;
+  left:26%;
   border:mediumpx solid #123456;
   right:0px;
   color:#2e2e8d;
   font-family:Arial, Helvetica, sans-serif;
   font-weight:700;
+  background-color:#ffffff;
 }
 .lead-btn{
   margin-top:15px;
@@ -120,12 +114,12 @@ body{
   transition-delay:initial;
   transition-property:all;
   cursor:pointer;
-  float:right;
   margin:12px 0px 0px 0px;
   color:#2e2e8d;
   box-shadow:0px 0px 5px 2px #2e2e8d inset;
   background-color:#ffffff;
   font-weight:600;
+  float:none;
 }
 .lead-btn:hover{
   background-color:#2e2e8d;
@@ -143,36 +137,38 @@ body{
   text-shadow:0px 0px 0px black;
 }
 .cell.cell70{
-  width:79%;
+  width:77%;
   max-width:100%;
   margin:0px 0px 0px 0px;
-  top:2.5%;
+  top:1.5%;
   bottom:0%;
-  height:97%;
+  height:95%;
   min-height:10%;
   border:0px solid rgb(176, 38, 38);
   background-color:#ffffff;
   padding:0px 0px 0px 0px;
   right:35%;
   border-radius:0px 0px 0px 0px;
-  left:16%;
+  left:14%;
   display:block;
   float:none;
   position:absolute;
   box-shadow:0px 0px 5px 2px #2e2e8d inset;
 }
 .cell.cell30{
-  width:15%;
+  width:12%;
   display:block;
   align-self:auto;
   flex-direction:row;
   justify-content:flex-start;
   top:0px;
-  position:absolute;
   height:100%;
   max-width:100%;
-  left:0px;
+  left:18px;
   background-color:none;
+  right:0px;
+  bottom:0px;
+  position:relative;
 }
 @media (max-width: 768px){
   .cell{

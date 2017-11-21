@@ -266,7 +266,7 @@ def mksheet(raw_users):
 				ws.cell(row=attr_row, column=host_col, value=attr[1])  # writting attribute value
 
 	format_wb(wb)
-	wb.save(FILENAME)  # saving the workbook
+	wb.save(FILENAME)  # saving t=he workbook
 	wb.close()
 # --------------------------------------------------------------- #
 # --------------------------------------------------------------- #
@@ -294,7 +294,6 @@ def mksheet(raw_users):
 						attr_row = find_attr.row
 
 					ws.cell(row=attr_row, column=host_col, value=attr[1])  # writting attribute value
-
 		format_wb(wb)
 		wb.save(FILENAME)  # saving the workbook
 		wb.close()
