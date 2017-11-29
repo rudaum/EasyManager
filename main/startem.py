@@ -13,7 +13,7 @@ app = Flask(__name__, instance_relative_config=True)
 # Setting some configurations
 app.config.from_object('config.settings')
 
-# Clling the Main Page Blueprints
+# Calling the Main Page Blueprints
 app.register_blueprint(page)
 
 app.run()
